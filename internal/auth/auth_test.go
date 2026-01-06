@@ -14,7 +14,7 @@ func TestAuth(t *testing.T) {
 		"Authorization": []string{"ee"},
 	}
 	CorrectHeader := http.Header{
-		"Authorization": []string{"ApiKeyPass"},
+		"Authorization": []string{"ApiKey Pass"},
 	}
 	NoAuthHeader := http.Header{
 		"wrong": []string{"ApiKey Pass"},
